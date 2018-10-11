@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="WebTest" duration-ms="31127" started-at="2018-09-26T18:24:40Z" finished-at="2018-09-26T18:25:11Z">
+  <suite name="WebTest" duration-ms="12360" started-at="2018-10-08T18:31:07Z" finished-at="2018-10-08T18:31:19Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="31127" started-at="2018-09-26T18:24:40Z" finished-at="2018-09-26T18:25:11Z">
+    <test name="Command line test" duration-ms="12360" started-at="2018-10-08T18:31:07Z" finished-at="2018-10-08T18:31:19Z">
       <class name="WebTest">
-        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:WebTest@3fb6a447]" name="driverSetUp" is-config="true" duration-ms="23641" started-at="2018-09-26T18:24:40Z" finished-at="2018-09-26T18:25:03Z">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:WebTest@668bc3d5]" name="driverSetUp" is-config="true" duration-ms="11079" started-at="2018-10-08T18:31:07Z" finished-at="2018-10-08T18:31:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="testMozilla()[pri:0, instance:WebTest@3fb6a447]" name="testMozilla" duration-ms="6486" started-at="2018-09-26T18:25:03Z" finished-at="2018-09-26T18:25:10Z">
+        <test-method status="PASS" signature="testMozilla()[pri:0, instance:WebTest@668bc3d5]" name="testMozilla" duration-ms="1193" started-at="2018-10-08T18:31:18Z" finished-at="2018-10-08T18:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMozilla -->
-        <test-method status="PASS" signature="driverClose()[pri:0, instance:WebTest@3fb6a447]" name="driverClose" is-config="true" duration-ms="971" started-at="2018-09-26T18:25:10Z" finished-at="2018-09-26T18:25:11Z">
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:WebTest@668bc3d5]" name="driverClose" is-config="true" duration-ms="0" started-at="2018-10-08T18:31:19Z" finished-at="2018-10-08T18:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->

@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebTest">
+      <class name="SerachFilterTest">
         <methods>
-          <include name="testApache"/>
-          <include name="testEclipse"/>
-          <include name="testMIT"/>
-          <include name="driverClose"/>
           <include name="driverSetUp"/>
-          <include name="testMozilla"/>
+          <include name="driverClose"/>
+          <include name="testSearch"/>
         </methods>
-      </class> <!-- WebTest -->
+      </class> <!-- SerachFilterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

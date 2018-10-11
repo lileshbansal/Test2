@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Clicked on Order_12345]]>
+    </line>
+    <line>
+      <![CDATA[New ref no is Order_123456]]>
+    </line>
+    <line>
+      <![CDATA[Linus Gould Customer is selected]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit button]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46404" started-at="2018-09-24T19:33:15Z" finished-at="2018-09-24T19:34:01Z">
+  <suite name="Default suite" duration-ms="30338" started-at="2018-10-11T17:55:58Z" finished-at="2018-10-11T17:56:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46404" started-at="2018-09-24T19:33:15Z" finished-at="2018-09-24T19:34:01Z">
-      <class name="WebTest">
-        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:WebTest@42d80b78]" name="driverSetUp" is-config="true" duration-ms="17055" started-at="2018-09-24T19:33:15Z" finished-at="2018-09-24T19:33:32Z">
+    <test name="Default test" duration-ms="30338" started-at="2018-10-11T17:55:58Z" finished-at="2018-10-11T17:56:28Z">
+      <class name="CopySalespagetest">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:CopySalespagetest@53b32d7]" name="driverSetUp" is-config="true" duration-ms="11683" started-at="2018-10-11T17:55:58Z" finished-at="2018-10-11T17:56:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="testMozilla()[pri:0, instance:WebTest@42d80b78]" name="testMozilla" duration-ms="27680" started-at="2018-09-24T19:33:32Z" finished-at="2018-09-24T19:33:59Z">
+        <test-method status="PASS" signature="testCopyPage_TC_05()[pri:0, instance:CopySalespagetest@53b32d7]" name="testCopyPage_TC_05" duration-ms="17747" started-at="2018-10-11T17:56:10Z" finished-at="2018-10-11T17:56:28Z">
           <reporter-output>
+            <line>
+              <![CDATA[Clicked on Order_12345]]>
+            </line>
+            <line>
+              <![CDATA[New ref no is Order_123456]]>
+            </line>
+            <line>
+              <![CDATA[Linus Gould Customer is selected]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit button]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testMozilla -->
-        <test-method status="PASS" signature="testEclipse()[pri:1, instance:WebTest@42d80b78]" name="testEclipse" duration-ms="215" started-at="2018-09-24T19:33:59Z" finished-at="2018-09-24T19:34:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEclipse -->
-        <test-method status="PASS" signature="testApache()[pri:2, instance:WebTest@42d80b78]" name="testApache" duration-ms="218" started-at="2018-09-24T19:34:00Z" finished-at="2018-09-24T19:34:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testApache -->
-        <test-method status="PASS" signature="testMIT()[pri:3, instance:WebTest@42d80b78]" name="testMIT" duration-ms="225" started-at="2018-09-24T19:34:00Z" finished-at="2018-09-24T19:34:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMIT -->
-        <test-method status="PASS" signature="driverClose()[pri:0, instance:WebTest@42d80b78]" name="driverClose" is-config="true" duration-ms="986" started-at="2018-09-24T19:34:00Z" finished-at="2018-09-24T19:34:01Z">
+        </test-method> <!-- testCopyPage_TC_05 -->
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:CopySalespagetest@53b32d7]" name="driverClose" is-config="true" duration-ms="884" started-at="2018-10-11T17:56:28Z" finished-at="2018-10-11T17:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
-      </class> <!-- WebTest -->
+      </class> <!-- CopySalespagetest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
